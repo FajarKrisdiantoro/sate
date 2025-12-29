@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sate Madura Putri | Portofolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-neutral-950 text-white font-[Poppins]">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full z-50 bg-neutral-950/80 backdrop-blur border-b border-neutral-800">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-xl font-bold tracking-wide">Sate Madura Putri</h1>
+      <ul class="hidden md:flex gap-8 text-sm text-neutral-300">
+        <li><a href="#home" class="hover:text-white">Home</a></li>
+        <li><a href="#about" class="hover:text-white">Tentang</a></li>
+        <li><a href="#menu" class="hover:text-white">Menu</a></li>
+        <li><a href="#gallery" class="hover:text-white">Galeri</a></li>
+        <li><a href="#contact" class="hover:text-white">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home"
+  class="min-h-screen flex items-center justify-center text-center px-6 bg-cover bg-center relative"
+  style="background-image: url('putri.png');">
+
+  <!-- overlay gelap -->
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <!-- konten -->
+  <div class="relative z-10 max-w-3xl">
+    <p class="text-sm uppercase tracking-widest text-amber-400 mb-4">
+      Kuliner Khas Madura
+    </p>
+    <h2 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+      Sate Madura <span class="text-amber-400">Putri</span>
+    </h2>
+    <p class="text-neutral-300 mb-8">
+      Perpaduan bumbu kacang khas Madura, daging empuk, dan rasa autentik.
+    </p>
+    <a href="#menu"
+      class="inline-block bg-amber-400 text-neutral-900 px-8 py-3 rounded-full font-semibold hover:scale-105 transition">
+      Lihat Menu
+    </a>
+  </div>
+</section>
+
+
+  <!-- About -->
+  <section id="about" class="py-24 bg-neutral-900">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h3 class="text-3xl font-bold mb-4">Tentang Kami</h3>
+        <p class="text-neutral-300 leading-relaxed">
+          Sate Madura Putri berdiri dengan komitmen menjaga cita rasa asli Madura. Kami menggunakan bahan segar, bumbu racikan turun-temurun, dan proses pembakaran tradisional untuk menghadirkan rasa terbaik di setiap tusuk sate.
+        </p>
+      </div>
+      <div class="bg-neutral-800 rounded-3xl overflow-hidden h-72">
+        <img src="logo-putri.png"
+             alt="Warung Sate Mami Putri"
+             class="w-full h-full object-cover">
+      </div>                  
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu" class="py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-12 text-center">Menu Andalan</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-neutral-900 p-6 rounded-2xl hover:scale-105 transition">
+          <h4 class="font-semibold text-xl mb-2">Sate Ayam</h4>
+          <p class="text-neutral-400 text-sm">Bumbu kacang kental, manis gurih khas Madura.</p>
+        </div>
+        <div class="bg-neutral-900 p-6 rounded-2xl hover:scale-105 transition">
+          <h4 class="font-semibold text-xl mb-2">Sate Kambing</h4>
+          <p class="text-neutral-400 text-sm">Daging empuk tanpa bau, dibakar sempurna.</p>
+        </div>
+        <div class="bg-neutral-900 p-6 rounded-2xl hover:scale-105 transition">
+          <h4 class="font-semibold text-xl mb-2">Lontong</h4>
+          <p class="text-neutral-400 text-sm">Lontong pulen sebagai pelengkap sate.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="py-24 bg-neutral-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-12 text-center">Galeri</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="h-40 rounded-2xl overflow-hidden">
+          <img src="taichan.jpg" alt="Sate Madura Putri"
+              class="w-full h-full object-cover hover:scale-110 transition">
+        </div>
+        <div class="h-40 rounded-2xl overflow-hidden">
+          <img src="lontong.jpeg" alt="Sate Madura Putri"
+       class="w-full h-full object-cover hover:scale-110 transition">
+        </div>
+        <div class="h-40 rounded-2xl overflow-hidden">
+          <img src="sate1.jpeg" alt="Sate Madura Putri"
+       class="w-full h-full object-cover hover:scale-110 transition">
+        </div>
+        <div class="h-40 rounded-2xl overflow-hidden">
+          <img src="sate2.jpeg" alt="Sate Madura Putri"
+       class="w-full h-full object-cover hover:scale-110 transition">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">Kontak & Pemesanan</h3>
+      <p class="text-neutral-300 mb-8">Hubungi kami untuk pemesanan atau kerja sama</p>
+      <a href="https://wa.me/628xxxxxxxxxx" class="inline-block bg-green-500 text-white px-8 py-3 rounded-full font-semibold hover:scale-105 transition">
+        WhatsApp Sekarang
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-neutral-800 py-6 text-center text-neutral-500 text-sm">
+    © 2025 Sate Madura Putri. All rights reserved.
+  </footer>
+
+</body>
+</html>
